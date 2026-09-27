@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skull &amp; Spark Privacy Policy</title>
+<meta name="description" content="Privacy policy for Skull & Spark, a mobile game by Tekeshine.">
+<style>
+  :root { --bg: #fbfaf7; --fg: #1d1b18; --muted: #5c5750; --line: #e3ded5; --accent: #9a3b14; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141312; --fg: #ece8e1; --muted: #a8a197; --line: #2c2a27; --accent: #f08a5d; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 2.2em 0 0.6em; padding-top: 1em; border-top: 1px solid var(--line); }
+  p, li { margin: 0.6em 0; }
+  ul { padding-left: 1.3em; }
+  .meta { color: var(--muted); margin: 0 0 1.5em; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  .table { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+<h1>Skull &amp; Spark Privacy Policy</h1>
+<p class="meta">Last updated: 27 September 2026</p>
+
+<h2>Who we are</h2>
+<p>Tekeshine ("we", "us") makes Skull &amp; Spark, a mobile game. See <a href="#contact">Contact</a> below.</p>
+
+<h2>The short version</h2>
+<p>The game works fully offline and your save lives on your device (and optionally in your own Apple or Google cloud account, which we never see). Payments, ads and cloud backup are handled by Apple, Google and Google AdMob under their own privacy policies. When the optional online features are available, we run one small server for them only, and nothing is sent to it unless you choose to join.</p>
+
+<h2>What data exists, and who holds it</h2>
+<p><strong>Game save data (on your device):</strong> your Gold, Gems, owned talents, equipment and cosmetics, and run progress are stored in a save file on your own device. We cannot see this data. It never leaves your device unless you use cloud save.</p>
+<p><strong>Cloud save (optional):</strong> if enabled, your save syncs through Apple's iCloud key-value storage (iOS) or Google Play Games Services (Android), which are Apple's and Google's own services under their own privacy policies. We never run a server that receives this data. Without cloud save the game works fully offline; you just can't restore progress on a new device.</p>
+<p><strong>Purchases:</strong> in-app purchases are processed entirely by Apple's App Store or Google Play. We receive a purchase confirmation, the store's transaction identifier and the product identifier (for example "100 Gems"), never your payment method, card number, billing address or name. To make sure every purchase is delivered exactly once, the game keeps a record of each purchase (transaction identifier, product, what it granted, and when) inside your save file, on your device and in your own cloud save if you use it. Refunds and purchase history are handled through your Apple or Google account.</p>
+<p><strong>Age screen:</strong> before the game can show ads or offer purchases, it asks once for your month and year of birth. We keep only an age group (under 13, 13&ndash;15, or 16 and over) in your save file, never your birth date, and use it only to turn purchases off for players under 13 and to choose the right kind of ads (below).</p>
+<p><strong>Age signals for purchases:</strong> where the law requires it (currently Texas and Brazil; Utah and Louisiana from 2027), the app asks Apple's Declared Age Range service or Google's Play Age Signals service for your age category and parental-consent status. It is used only to allow or block an in-app purchase and to choose non-personalized ads for minors. It is kept in memory for that moment only and is never stored, logged or shared. On iOS, if Apple asks the app to show you a notice about a significant update, we remember only that you have seen it (on your device and in your iCloud key-value storage).</p>
+<p><strong>Advertising (Google AdMob):</strong> if you choose to watch a rewarded ad (for an energy refill or a revive), Google AdMob may collect an advertising identifier and other data to select and measure ads, under <a href="https://policies.google.com/privacy">Google's privacy policy</a>. Where the law requires it (for example the EU, UK and Switzerland), you will first see a consent form asking whether you agree to personalized ads. Declining still lets you watch ads and earn rewards, with non-personalized ads. On iOS, Apple's App Tracking Transparency prompt appears before any tracking-capable ad request, and declining it does not block gameplay or rewards. Players in US states with privacy laws can opt out of the sale or sharing of personal information through Google's US state regulations message.</p>
+<ul>
+  <li><strong>Under 13</strong> (by the age screen): ads are requested as child-directed, which turns off interest-based ads and remarketing and limits ads to general-audience content. No purchases are possible.</li>
+  <li><strong>Under 16, or a minor according to the platform's age signal:</strong> ads are requested with the "under the age of consent" setting, so they are never personalized.</li>
+  <li>The legal basis for personalized ads under the GDPR and UK GDPR is your consent through the consent form. You can withdraw it at any time (see <a href="#choices">Your choices</a>).</li>
+</ul>
+<p><strong>Online features (optional, when available; off until you join):</strong> the Online screen first tells you what is collected and why, and nothing is sent until you tap Join. Players under 13 can't join. Joining creates:</p>
+<ul>
+  <li>a <strong>random player ID</strong> generated by the app, plus a secret credential (we store only a salted hash of the credential, never the credential itself);</li>
+  <li>your <strong>progress milestones</strong>: which chapters you have reached or cleared, and on which difficulty tier;</li>
+  <li>your <strong>leaderboard entry</strong>: your furthest progress per difficulty tier, shown to other players next to an anonymous tag derived from your random ID (no name or account).</li>
+</ul>
+<p>This data is stored on Cloudflare (Workers and D1 database), which processes it for us as a service provider. We use it only to compute global stats and leaderboards. Leaderboards are casual and self-reported: we check that values are plausible but do not verify them.</p>
+<ul>
+  <li><strong>Legal basis (GDPR/UK GDPR):</strong> legitimate interest in providing optional community stats and rankings. You can object at any time by deleting your online data; objecting and deleting are the same action.</li>
+  <li><strong>Retention:</strong> kept until you delete it. After a deletion we keep only a one-way hash of the deleted random ID, with no other data, so an old backup of the app can't silently re-create the deleted identity. It cannot be used to identify you.</li>
+  <li><strong>Deletion:</strong> Online screen &rarr; "Delete my online data" removes your player record, milestones and leaderboard entries from our server in one step and clears the online ID from your device.</li>
+</ul>
+<p><strong>Crash reports:</strong> we use each store's built-in crash reporting (Xcode Organizer on iOS, Play Console Vitals on Android), not a separate analytics service.</p>
+<p><strong>Purchase and ad diagnostics (on your device only):</strong> the game keeps a small log of purchase and ad steps on your device (for example "purchase completed", "ad reward earned") to help fix problems. It contains only the product, the outcome and a short scrambled fragment of the transaction identifier, with no age information, and it is never uploaded automatically.</p>
+<p><strong>Nothing else:</strong> we do not collect your name, email, contacts, photos, location, or any other personal data. There is no account system beyond the optional random online ID, no chat or social feature, and no data shared with data brokers or advertisers beyond what AdMob's consent flow covers.</p>
+
+<h2>Children's privacy</h2>
+<p>Skull &amp; Spark is made for a general audience. Because younger players may enjoy it too, the game asks every player's month and year of birth in a neutral way before any ads or purchases can happen. For players under 13 we do not knowingly collect personal information: purchases are turned off, the online features are unavailable, and ads are requested as child-directed, which Google uses only to show contextual, non-personalized ads (a use the US COPPA rule allows as "support for internal operations"). If you are a parent and believe your child has given us personal information, contact us and we will delete it.</p>
+<p>Where app-store age laws apply (for example Texas), the store asks a parent to approve downloads and purchases for minors, and the game respects the store's answer.</p>
+
+<h2 id="choices">Your choices</h2>
+<ul>
+  <li><strong>Cloud save:</strong> you can decline platform sign-in at any time; the game keeps working with a local-only save.</li>
+  <li><strong>Ad personalization:</strong> change your choice at any time in the game (Pause menu &rarr; "Privacy options", shown wherever the consent rules require it) or in your device settings (iOS: Settings &rarr; Privacy &amp; Security &rarr; Tracking; Android: Settings &rarr; Privacy &rarr; Ads).</li>
+  <li><strong>Your rights (GDPR, UK GDPR and US state laws):</strong> you can ask us for access to, correction of, or deletion of personal data we hold, and complain to your local data-protection authority. Almost everything lives on your own device or in your own Apple or Google account; for the online features, the in-app delete button removes everything we hold.</li>
+  <li><strong>Purchases:</strong> manage purchases and request refunds through your Apple or Google Play account. We never receive your payment information, so we can't process refunds directly.</li>
+  <li><strong>Save data:</strong> uninstalling the app removes your local save; if you used cloud save, delete it in your iCloud or Google Play Games account settings.</li>
+</ul>
+
+<h2>Third-party services</h2>
+<div class="table">
+<table>
+  <thead><tr><th>Service</th><th>Purpose</th><th>Privacy policy</th></tr></thead>
+  <tbody>
+    <tr><td>Google AdMob</td><td>Rewarded video ads</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
+    <tr><td>Google Play Billing</td><td>Android in-app purchases</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
+    <tr><td>Apple App Store (StoreKit)</td><td>iOS in-app purchases</td><td><a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a></td></tr>
+    <tr><td>Google Play Games Services</td><td>Android cloud save (optional)</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
+    <tr><td>Apple iCloud</td><td>iOS cloud save (optional)</td><td><a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a></td></tr>
+    <tr><td>Cloudflare (Workers, D1)</td><td>Optional online stats and leaderboards, when available</td><td><a href="https://www.cloudflare.com/privacypolicy/">cloudflare.com/privacypolicy</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Changes to this policy</h2>
+<p>We update the date at the top of this page whenever anything changes. Significant changes (for example to how purchases or ads work) are also announced through the app stores' own significant-change process where the law requires it.</p>
+
+<h2 id="contact">Contact</h2>
+<p>For any question about this policy or your data, email: <span id="contact-email">our dedicated support address is being set up and will appear here shortly</span>.</p>
+</main>
+</body>
+</html>
